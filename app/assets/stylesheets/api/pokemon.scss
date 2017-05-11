@@ -55,21 +55,50 @@
   color: white;
 }
 
-.PokemonDetail img {
+.PokemonDetail > img {
   height: 50%;
   width: auto;
 }
 
-.PokemonDetail ul {
+.PokemonDetail > ul {
   display: flex;
   flex-direction: column;
   list-style: none;
   align-items: center;
 }
 
-.PokemonDetail li {
+.PokemonDetail > li {
   display: flex;
   flex-direction: column;
   list-style: none;
   align-items: center;
 }
+
+// .PokemonItems {
+//   padding: 0;
+//   height: 100px;
+//   width: 500px;
+//   display: flex;
+//   background-color: yellow;
+//   justify-content: space-between;
+//   flex-direction: row;
+// }
+//
+// .PokemonItems li {
+//   height: 100%;
+//   width: 20%;
+//   background-color: green;
+//   justify-content: space-between;
+//   flex-direction: row;
+// }
+//
+// .PokemonItems img {
+//   height: 50px;
+//   width: auto;
+// }
+//
+// .PokemonItems a {
+//   justify-content: center;
+//   height: 100%;
+//   width: 100%;
+// }
