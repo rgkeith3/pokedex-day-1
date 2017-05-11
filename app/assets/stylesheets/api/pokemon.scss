@@ -1,3 +1,30 @@
 // Place all the styles related to the api/pokemon controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+//
+.PokemonIndex ul {
+  list-style: none;
+  padding: 2px;
+}
+
+.PokemonIndex img {
+  height: 100%;
+  width: auto;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.PokemonIndex li {
+  width: 150px;
+  height: 30px;
+  padding: 5px;
+  border-top: 1px solid black;
+}
+
+.PokemonIndex a {
+  height: 30px;
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
