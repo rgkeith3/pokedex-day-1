@@ -7,7 +7,7 @@ class ItemDetail extends React.Component{
 
   render() {
     return(
-      <div>
+      <div className="ItemDetail">
         <h1>{this.props.item.name}</h1>
         <h1>Happiness: {this.props.item.happiness}</h1>
         <h1>Price: {this.props.item.price}</h1>
