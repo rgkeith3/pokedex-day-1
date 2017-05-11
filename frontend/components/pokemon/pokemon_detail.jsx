@@ -17,7 +17,7 @@ class PokemonDetail extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="PokemonDetail">
         <h1>{this.props.pokemonDetail.name}</h1>
         <img src={this.props.pokemonDetail.image_url} />
         <ul>

@@ -19,7 +19,7 @@ class PokemonIndex extends React.Component {
                                               pokemon={poke}/>);
     return (
       <div className="PokemonIndex">
-        <ul>
+        <ul className ="PokemonList">
           {pokemonList}
         </ul>
         <Route path="/pokemon/:id" component={ PokemonDetailContainer } />
