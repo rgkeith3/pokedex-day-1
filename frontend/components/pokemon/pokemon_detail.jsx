@@ -29,7 +29,7 @@ class PokemonDetail extends React.Component {
       return (
         <div className={"PokemonDetail " + this.props.pokemonDetail.poke_type}>
           <h1>{this.props.pokemonDetail.name}</h1>
-          <img src={this.props.pokemonDetail.image_url} />
+          <img className="animated bounce" src={this.props.pokemonDetail.image_url} />
           <ul>
             <li>Type: {this.props.pokemonDetail.poke_type}</li>
             <li>Attack: {this.props.pokemonDetail.attack}</li>
